@@ -1,0 +1,101 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4efef;
+    color: #333
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    top: 0;
+    z-index: 1000;
+}
+nav {
+    display: flex;
+    justify-content:  space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bpld;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover { 
+    color: #ff6347;
+}
+/*hero section CSS*/
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #f4f4f4;
+    align-items: center;
+    text-align:center;
+    color:#231818;
+}
+.hero-content h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero-content p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #b64208
+}
+/* about css*/
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.about h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* project section*/
+.projects h2{
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+.projects h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+    
+

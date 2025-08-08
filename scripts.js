@@ -15,5 +15,5 @@ document
 .addEventListener("submit", function (e){
     e.preventDefault()
     alert("Thanks For Your Message"):
-    this.requestFullscreen();
+    this.reset();
 });

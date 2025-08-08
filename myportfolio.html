@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
 </head>
 <body>
    <header>
@@ -13,8 +14,8 @@
         <ul class="nav-links">
             <li> <a href="#home">Home</a></li>
             <li> <a href="#about">About</a></li>
-            <li> <a href="#">Project</a></li>
-            <li> <a href="#">Contact</a></li>
+            <li> <a href="#projects">Project</a></li>
+            <li> <a href="#contact">Contact</a></li>
         </ul>
     </nav>
    </header>
@@ -60,6 +61,23 @@
         </div>
      </div>
    </section>
+   <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Your Message</button>
+    </form>
+   </section>
+   <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved</p>
+    <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+   </footer>
    
     <script src="scripts.js"></script>
 </body>

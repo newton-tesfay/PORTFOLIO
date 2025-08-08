@@ -110,6 +110,47 @@ nav {
     width: 100%;
     border-radius: 10px;
 }
+.project-card h3{
+    margin: 15px 0;
+}
+
+/* contact me section */
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+.contact h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+#contact-form button{
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#contact-form button:hover{
+    background-color: #b64208;
+}
+
+
     
 
 
